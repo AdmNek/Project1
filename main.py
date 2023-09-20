@@ -8,3 +8,13 @@ print('2 - Вычесть a - b')
 print('3 - Умножить a * b')
 print('4 - Разделить a / b')
 c = int(input())
+match c:
+    case 1:
+        res = float(a + b)
+    case 2:
+        res = float(a - b)
+    case 3:
+        res = float(a * b)
+    case 4:
+        res = float(a / b)
+print(res) 
